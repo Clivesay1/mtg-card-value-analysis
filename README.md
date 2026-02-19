@@ -68,3 +68,4 @@ All data pulled live from the [Scryfall API](https://scryfall.com/docs/api) — 
 ---
 *Author: Chris Livesay | [LinkedIn](https://www.linkedin.com/in/christopher-livesay)*
 <!-- 1043 -->
+<!-- revision 5071 -->
