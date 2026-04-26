@@ -11,3 +11,16 @@ Exploring whether certain keyword combinations predict higher prices better than
 - Draw + Low CMC: strongest predictor in Commander (EDHREC rank correlation: -0.41)
 
 Next step: encode keyword pairs as interaction features in the model and re-run feature importance analysis.
+
+---
+
+### Update: April 26, 2026
+
+## Methodology Notes
+
+The value scoring algorithm uses a weighted combination of price volatility, set rarity distribution, and tournament demand signals. Cards with high EDH Commander demand consistently outperform pure rarity-based predictions.
+
+### Key Observations
+- Foil multipliers vary significantly by set era (pre-2015 foils command higher premiums)
+- Reserved List cards show price floor behavior not captured by standard regression
+- Promo variants require separate treatment in the model
