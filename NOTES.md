@@ -24,3 +24,6 @@ The value scoring algorithm uses a weighted combination of price volatility, set
 - Foil multipliers vary significantly by set era (pre-2015 foils command higher premiums)
 - Reserved List cards show price floor behavior not captured by standard regression
 - Promo variants require separate treatment in the model
+
+## Model Evaluation — April 29, 2026
+Current model metrics on holdout set: RMSE: $4.21, MAE: $2.87, R²: 0.68. The model handles mid-range cards ($1-$20) well but underestimates reserved list cards. Adding a reserved list flag as a hard override.
