@@ -27,3 +27,6 @@ The value scoring algorithm uses a weighted combination of price volatility, set
 
 ## Model Evaluation — April 29, 2026
 Current model metrics on holdout set: RMSE: $4.21, MAE: $2.87, R²: 0.68. The model handles mid-range cards ($1-$20) well but underestimates reserved list cards. Adding a reserved list flag as a hard override.
+
+## Price Trend Observation — April 30, 2026
+Revisiting the relationship between set rotation and price spikes. Cards that see sudden spikes in EDHREC rank (Commander demand) often precede price increases by 2-4 weeks. Building a lag-feature to capture this signal.
