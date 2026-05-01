@@ -30,3 +30,6 @@ Current model metrics on holdout set: RMSE: $4.21, MAE: $2.87, R²: 0.68. The mo
 
 ## Price Trend Observation — April 30, 2026
 Revisiting the relationship between set rotation and price spikes. Cards that see sudden spikes in EDHREC rank (Commander demand) often precede price increases by 2-4 weeks. Building a lag-feature to capture this signal.
+
+## Keyword Synergy Scoring — May 01, 2026
+Cards with 3+ keywords that appear together frequently in Commander decks show a 2.1x price premium over single-keyword cards of the same rarity. Building a keyword co-occurrence matrix from EDHREC deck data to capture synergy effects in the scoring model.
