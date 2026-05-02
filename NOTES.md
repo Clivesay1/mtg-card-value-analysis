@@ -33,3 +33,7 @@ Revisiting the relationship between set rotation and price spikes. Cards that se
 
 ## Keyword Synergy Scoring — May 01, 2026
 Cards with 3+ keywords that appear together frequently in Commander decks show a 2.1x price premium over single-keyword cards of the same rarity. Building a keyword co-occurrence matrix from EDHREC deck data to capture synergy effects in the scoring model.
+
+## Set Rotation Study — May 02, 2026
+
+Examining how Standard rotation affects card prices. Cards rotating out of Standard drop an average of 62% in value, while cards entering Commander-legal sets see a sustained floor. This confirms that format legality is one of the strongest long-term price drivers in the dataset.
