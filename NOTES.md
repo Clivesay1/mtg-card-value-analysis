@@ -37,3 +37,7 @@ Cards with 3+ keywords that appear together frequently in Commander decks show a
 ## Set Rotation Study — May 02, 2026
 
 Examining how Standard rotation affects card prices. Cards rotating out of Standard drop an average of 62% in value, while cards entering Commander-legal sets see a sustained floor. This confirms that format legality is one of the strongest long-term price drivers in the dataset.
+
+
+## Value Score Calibration — May 07, 2026
+Recalibrating the 0-100 value score scale using the full dataset. Current distribution is right-skewed — most cards score below 30. Applying a log transformation to the price component normalizes the distribution and improves score interpretability.
