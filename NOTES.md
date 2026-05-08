@@ -41,3 +41,7 @@ Examining how Standard rotation affects card prices. Cards rotating out of Stand
 
 ## Value Score Calibration — May 07, 2026
 Recalibrating the 0-100 value score scale using the full dataset. Current distribution is right-skewed — most cards score below 30. Applying a log transformation to the price component normalizes the distribution and improves score interpretability.
+
+## 2026-05-08 11:40
+
+Segmented the card dataset by primary type (Creature, Instant, Sorcery, Enchantment, Artifact, Land, Planeswalker). Creatures and Instants show highest price volatility; Lands show lowest.
