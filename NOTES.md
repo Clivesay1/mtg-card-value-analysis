@@ -45,3 +45,7 @@ Recalibrating the 0-100 value score scale using the full dataset. Current distri
 ## 2026-05-08 11:40
 
 Segmented the card dataset by primary type (Creature, Instant, Sorcery, Enchantment, Artifact, Land, Planeswalker). Creatures and Instants show highest price volatility; Lands show lowest.
+
+## 2026-05-10 11:46
+
+Investigated Commander demand as a price driver. EDHREC rank shows a -0.41 Spearman correlation with price — stronger than rarity alone. Adding EDHREC rank as a primary feature in the next model iteration.
