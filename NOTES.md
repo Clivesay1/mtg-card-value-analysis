@@ -49,3 +49,6 @@ Segmented the card dataset by primary type (Creature, Instant, Sorcery, Enchantm
 ## 2026-05-10 11:46
 
 Investigated Commander demand as a price driver. EDHREC rank shows a -0.41 Spearman correlation with price — stronger than rarity alone. Adding EDHREC rank as a primary feature in the next model iteration.
+
+## Set Type Price Stratification — May 16, 2026
+Comparing average card prices across set types: Masters sets show highest average price ($8.40), followed by Commander precons ($4.20) and Standard sets ($2.10). Masters set reprints cause immediate 40-60% price drops but recover within 18 months for staples.
