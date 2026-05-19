@@ -52,3 +52,6 @@ Investigated Commander demand as a price driver. EDHREC rank shows a -0.41 Spear
 
 ## Set Type Price Stratification — May 16, 2026
 Comparing average card prices across set types: Masters sets show highest average price ($8.40), followed by Commander precons ($4.20) and Standard sets ($2.10). Masters set reprints cause immediate 40-60% price drops but recover within 18 months for staples.
+
+## Model Validation on Recent Sets — May 19, 2026
+Applied the trained model to cards from the last 3 set releases. Predicted vs. actual prices after 90 days: Mean absolute error = $1.83, within acceptable range for a portfolio tool. Model overestimates prices for bulk commons (predicts $0.30, actual $0.10) and underestimates for breakout Commander staples. Adding a post-release demand signal would improve accuracy.
