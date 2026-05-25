@@ -55,3 +55,7 @@ Comparing average card prices across set types: Masters sets show highest averag
 
 ## Model Validation on Recent Sets — May 19, 2026
 Applied the trained model to cards from the last 3 set releases. Predicted vs. actual prices after 90 days: Mean absolute error = $1.83, within acceptable range for a portfolio tool. Model overestimates prices for bulk commons (predicts $0.30, actual $0.10) and underestimates for breakout Commander staples. Adding a post-release demand signal would improve accuracy.
+
+### Update: May 25, 2026
+
+Added foil multiplier analysis by set era. Pre-2015 foils show a 2.3x average premium vs. 1.4x for modern foils. Encoding era as a categorical feature improved model R² by 0.03.
