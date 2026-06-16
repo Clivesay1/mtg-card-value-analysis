@@ -59,3 +59,12 @@ Applied the trained model to cards from the last 3 set releases. Predicted vs. a
 ### Update: May 25, 2026
 
 Added foil multiplier analysis by set era. Pre-2015 foils show a 2.3x average premium vs. 1.4x for modern foils. Encoding era as a categorical feature improved model R² by 0.03.
+
+---
+
+## Data Quality Notes
+
+- Scryfall API returns foil and non-foil prices separately — using non-foil as baseline
+- Some promo cards have null EDHREC ranks — imputed with median rank by card type
+- Set type 'masterpiece' cards excluded from main model (too few, too extreme)
+- Double-faced cards counted as single entries using front face attributes
