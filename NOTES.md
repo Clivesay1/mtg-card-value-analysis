@@ -68,3 +68,6 @@ Added foil multiplier analysis by set era. Pre-2015 foils show a 2.3x average pr
 - Some promo cards have null EDHREC ranks — imputed with median rank by card type
 - Set type 'masterpiece' cards excluded from main model (too few, too extreme)
 - Double-faced cards counted as single entries using front face attributes
+
+## Buylist vs Market Price Spread — June 19, 2026
+The spread between buylist price (what stores pay) and market price (what players pay) averages 45% for bulk, 30% for mid-range, and 15% for high-end staples. Narrow spreads indicate high liquidity and market confidence. Using spread_ratio as a liquidity proxy in the value scoring algorithm.
