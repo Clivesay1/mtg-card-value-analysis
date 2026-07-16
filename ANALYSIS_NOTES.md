@@ -11,3 +11,9 @@ Ongoing notes and observations from the analysis.
 - CMC analysis: cards with CMC 2-3 dominate competitive formats; CMC 4+ cards rely on Commander demand
 - Promo treatment premium: borderless and full-art versions average 2.4x regular frame prices
 - New Bloomburrow set analysis: creature type synergy cards showing early price spikes
+
+## 2026-07-16 15:39
+
+**Update feature importance observations**
+
+Random forest feature importances: rarity (0.31), edhrec_rank (0.24), reserved_list (0.18), legal_formats (0.14), cmc (0.08), other (0.05).
