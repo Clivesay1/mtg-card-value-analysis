@@ -17,3 +17,6 @@ Ongoing notes and observations from the analysis.
 **Update feature importance observations**
 
 Random forest feature importances: rarity (0.31), edhrec_rank (0.24), reserved_list (0.18), legal_formats (0.14), cmc (0.08), other (0.05).
+
+## July 19, 2026
+**Keyword analysis update:** Cards with 'Ward', 'Cascade', or 'Companion' keywords show above-average price retention. Mechanic complexity correlates positively with Commander playability. Added keyword_complexity_score as a derived feature — counts high-value keywords per card.
