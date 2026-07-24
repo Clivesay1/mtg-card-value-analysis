@@ -20,3 +20,6 @@ Random forest feature importances: rarity (0.31), edhrec_rank (0.24), reserved_l
 
 ## July 19, 2026
 **Keyword analysis update:** Cards with 'Ward', 'Cascade', or 'Companion' keywords show above-average price retention. Mechanic complexity correlates positively with Commander playability. Added keyword_complexity_score as a derived feature — counts high-value keywords per card.
+
+## July 24, 2026
+**Set type analysis:** Supplemental products (Commander precons, Secret Lairs) introduce new cards at artificially high initial prices. Tracking 90-day post-release price trajectories — most supplemental cards settle 20-40% below release price. Filtering supplemental-only printings from baseline price analysis.
