@@ -75,3 +75,8 @@ The spread between buylist price (what stores pay) and market price (what player
 ---
 ## Model Refinement — June 22, 2026
 Adjusted weighting for eternal format legality (Legacy/Vintage) in the value score. Cards legal in older formats command a 15-25% premium over their Modern-only equivalents. Updated coefficient from 0.08 to 0.12 for the format_legality_count feature.
+
+
+---
+## Buylist Spread Analysis — July 26, 2026
+The spread between buylist price and market price averages 45% for bulk, 30% for mid-range, and 15% for high-end staples. Narrow spreads indicate high liquidity and market confidence. Using spread_ratio as a liquidity proxy in the value scoring algorithm.
