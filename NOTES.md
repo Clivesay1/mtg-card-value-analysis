@@ -80,3 +80,7 @@ Adjusted weighting for eternal format legality (Legacy/Vintage) in the value sco
 ---
 ## Buylist Spread Analysis — July 26, 2026
 The spread between buylist price and market price averages 45% for bulk, 30% for mid-range, and 15% for high-end staples. Narrow spreads indicate high liquidity and market confidence. Using spread_ratio as a liquidity proxy in the value scoring algorithm.
+
+---
+## Eternal Format Premium — July 31, 2026
+Cards legal in Legacy or Vintage command a 15-25% premium over Modern-only equivalents. Updated format_legality_count coefficient from 0.08 to 0.12 in the regression model. Eternal staples also show lower price volatility — adding volatility_score as a secondary output metric.
