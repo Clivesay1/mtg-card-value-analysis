@@ -48,7 +48,9 @@ mtg-card-value-analysis/
 ```bash
 git clone https://github.com/Clivesay1/mtg-card-value-analysis
 cd mtg-card-value-analysis
-pip install pandas scikit-learn matplotlib seaborn requests nbformat
+python -m venv .venv
+source .venv/bin/activate  # Windows: .venv\Scripts\activate
+pip install -r requirements.txt
 jupyter notebook notebooks/mtg_value_scoring_model.ipynb
 ```
 
@@ -63,10 +65,10 @@ jupyter notebook notebooks/mtg_value_scoring_model.ipynb
 | Game Changer | 8 pts | Wizards' official designation signals competitive power |
 
 ## Data Source
-All data pulled live from the [Scryfall API](https://scryfall.com/docs/api) — the most comprehensive MTG card database, with real-time TCGPlayer pricing.
+All data pulled from the [Scryfall API](https://scryfall.com/docs/api). The committed `data/mtg_cards_raw.csv` file is the source snapshot used for this analysis; it contains 2,139 card records and is documented in [`data/README.md`](data/README.md).
+
+## Reproducibility
+Run the consolidated notebook from the repository root after installing `requirements.txt`. The analysis reads the committed data snapshot and produces scored-card outputs in `output/`. Price and legality fields are snapshot values and may change after the documented collection period.
 
 ---
 *Author: Chris Livesay | [LinkedIn](https://www.linkedin.com/in/christopher-livesay)*
-<!-- 1043 -->
-<!-- revision 5071 -->
-<!-- update 7173 -->
